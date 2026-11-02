@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "wangliwesi-exptrack_jd166"
+name = "wangliwesi-speculative_decode_hit_rate_consistency_check"
 version = "0.1.0"
 description = "在同一个输入里两两比对，检测实验管理与追踪工程师·投机解码的命中率相关的矛盾表述，把冲突双方原样并排呈现"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://wangliwesi.github.io"
-Repository = "https://github.com/wangliwesi/exptrack_jd166"
-Issues = "https://github.com/wangliwesi/exptrack_jd166/issues"
+Repository = "https://github.com/wangliwesi/speculative_decode_hit_rate_consistency_check"
+Issues = "https://github.com/wangliwesi/speculative_decode_hit_rate_consistency_check/issues"
 
 [project.scripts]
-exptrack_jd166 = "exptrack_jd166:main"
+speculative_decode_hit_rate_consistency_check = "speculative_decode_hit_rate_consistency_check:main"
 
 [tool.setuptools]
-py-modules = ["exptrack_jd166"]
+py-modules = ["speculative_decode_hit_rate_consistency_check"]
